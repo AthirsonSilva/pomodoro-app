@@ -68,12 +68,12 @@ def start_timer():
 
 def count_down(count):
     """
-    Count down function
+    Counting
 
-    Counts down the number according to the user input
+    Activates the countdown function
 
-    :param count: 1
-    :type count: interger
+    Arguments:
+        count {int} -- The amount to be counted down
     """
     from time import sleep
     import math
